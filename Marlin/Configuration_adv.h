@@ -3709,7 +3709,7 @@
  *
  * Execute certain G-code commands immediately after power-on.
  */
-//#define STARTUP_COMMANDS "M17 Z"
+//#define STARTUP_COMMANDS "M106 S255\nG91\nG1 X50 F1800\nG1 X-50 F1800\nG1 X50 F1800\nG1 X-50 F1800\nG1 X50 F1800\nG1 X-50 F1800\nG90"
 
 /**
  * G-code Macros
